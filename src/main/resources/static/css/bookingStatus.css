@@ -1,0 +1,13 @@
+
+
+body{
+  background: url("/img/i.jpg") ;
+
+
+   /* Full height */
+   height: 100%;
+
+   /* Center and scale the image nicely */
+   background-repeat: no-repeat;
+   background-size: cover;
+} 

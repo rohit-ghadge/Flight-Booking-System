@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorate="~{layout/master-page}">
+
+<head>
+	<link rel="stylesheet" href="./css/Layout.css">
+</head>
+
+<body>
+	<th:block layout:fragment="content">
+	
+		<!--
+		       welcome cart word map and top tourist attractions
+		
+		-->
+		<div class="card-link">
+			<section class="row bannerContainerA" data-container="banner-container">
+				<div class="span8 pushRight">
+					<div class="info"></div>
+				</div>
+				<div class="span4 bannerCard">
+					<div id="bannerContainerA_card" class="bannerContainerA_card">
+						<h2 class="gamma">Welcome to,<br>AIR INDIA </h2>
+						<p class="content">India is One of the oldest civilisations in the world, India is a mosaic of multicultural experiences.
+						Here is the Top-Rated Tourist Attractions in India</p>
+					</div>
+
+					<a href="https://www.planetware.com/tourist-attractions/india-ind.htm;from=bannerContainerA"
+						class="btn-link btn-blue full" target="_blank">Start exploring <span aria-hidden="true"
+							class="icon-newpage"></span><span class="hidden-accessible">, Opens another site in a new
+							window that may not meet accessibility guidelines.</span></a>
+				</div>
+			</section>
+		</div>
+	</th:block>
+</body>
+
+</html>
